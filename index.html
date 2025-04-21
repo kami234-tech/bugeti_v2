@@ -2,25 +2,78 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Budgetii - Smart Budgeting App</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Budgetii - Smarter Budgeting App</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka&display=swap" rel="stylesheet">
   <style>
-    /* styles same as before */
+    * {
+      margin: 0;
+      padding: 0;
+      font-family: 'Fredoka', sans-serif;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #fdfaf6;
+      color: #2e2e2e;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    h1 {
+      color: #6c3483;
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1.2em;
+      margin-bottom: 40px;
+    }
+
+    .btn {
+      background-color: #6c3483;
+      color: white;
+      padding: 14px 28px;
+      text-decoration: none;
+      font-size: 1em;
+      border-radius: 8px;
+      display: inline-block;
+      margin-top: 10px;
+      transition: 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #5a2a6b;
+    }
+
+    .screenshot {
+      margin-top: 40px;
+      max-width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      margin-top: 60px;
+      font-size: 0.9em;
+      color: #888;
+    }
   </style>
 </head>
 <body>
-  <div class="container">
-    <h1>Budgetii</h1>
-    <p>Your personal companion for smarter budgeting and shopping list management. Stay organized, save money, and never forget an item again!</p>
+  <h1>Budgetii</h1>
+  <p>Your personal companion for smarter budgeting and shopping list management.<br/>
+     Stay organized, save money, and never forget an item again!</p>
 
-<a href="https://drive.google.com/file/d/109QSBbxkxJB0QtGbBA7Dp3ImxbrEDH6q/view?usp=sharing" class="download-button">⬇️ Download APK</a>
+  <a class="btn" href="https://drive.google.com/your-apk-link" target="_blank">📥 Download APK</a>
 
+  <div>
     <img src="screenshot.png" alt="App Screenshot" class="screenshot" />
-
-    <footer>
-      &copy; 2025 Budgetii. All rights reserved.
-    </footer>
   </div>
+
+  <footer>
+    © 2025 Budgetii. All rights reserved.
+  </footer>
 </body>
 </html>
