@@ -3,33 +3,21 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Budgetii - Smarter Budgeting App</title>
-
-  <!-- Meta Tags -->
-  <meta name="description" content="Download Budgetii - the best shopping list and budgeting app to help you stay organized and save money." />
-  <meta name="author" content="Budgetii" />
-  <meta name="theme-color" content="#6c3483" />
-
-  <!-- Favicon (optional) -->
-  <link rel="icon" href="favicon.ico" type="image/x-icon" />
-
-  <!-- Google Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Fredoka&display=swap" rel="stylesheet">
-
-  <!-- Styles -->
+  <title>Budgetii - Smarter Budgeting</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&display=swap" rel="stylesheet">
   <style>
     * {
       margin: 0;
       padding: 0;
-      font-family: 'Fredoka', sans-serif;
       box-sizing: border-box;
+      font-family: 'Fredoka', sans-serif;
     }
 
     body {
       background-color: #fdfaf6;
       color: #2e2e2e;
-      padding: 40px 20px;
       text-align: center;
+      padding: 40px 20px;
     }
 
     h1 {
@@ -40,8 +28,8 @@
 
     p {
       font-size: 1.2em;
-      margin-bottom: 40px;
-      line-height: 1.5;
+      max-width: 600px;
+      margin: 0 auto 30px;
     }
 
     .btn {
@@ -52,20 +40,19 @@
       font-size: 1em;
       border-radius: 8px;
       display: inline-block;
-      margin-top: 10px;
+      margin-top: 20px;
       transition: background-color 0.3s ease;
     }
 
     .btn:hover {
-      background-color: #5a2a6b;
+      background-color: #51276a;
     }
 
     .screenshot {
       margin-top: 40px;
       max-width: 100%;
-      width: 300px;
       border-radius: 12px;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     }
 
     footer {
@@ -73,20 +60,30 @@
       font-size: 0.9em;
       color: #888;
     }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2.2em;
+      }
+
+      .btn {
+        padding: 12px 24px;
+        font-size: 0.95em;
+      }
+    }
   </style>
 </head>
 <body>
-
   <h1>Budgetii</h1>
-  <p>Your personal companion for smarter budgeting and shopping list management.<br />
+  <p>Your personal companion for smarter budgeting and shopping list management.<br>
      Stay organized, save money, and never forget an item again!</p>
 
-  <!-- Replace with your Google Drive or direct APK link -->
-  <a class="btn" href="https://drive.google.com/file/d/109QSBbxkxJB0QtGbBA7Dp3ImxbrEDH6q/view?usp=sharing" target="_blank" rel="noopener noreferrer">📥 Download APK</a>
+  <a class="btn" href="https://drive.google.com/uc?export=download&id=109QSBbxkxJB0QtGbBA7Dp3ImxbrEDH6q" target="_blank">
+    📥 Download APK
+  </a>
 
-  <!-- Image must be uploaded to your repo -->
   <div>
-    <img src="budgetti_loading.png" alt="App Screenshot" class="screenshot" />
+    <img src="budegtti_loading.png" alt="App Screenshot" class="screenshot" />
   </div>
 
   <footer>
